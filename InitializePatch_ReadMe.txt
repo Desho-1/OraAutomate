@@ -9,7 +9,7 @@ Prerequisites (Before Running the Script)
 
 - Move all required source files (patche sources, etc.) into the BASE_DIR.
 
-- Ensure the script is executed with the following input parameters:
+- Ensure the scripts are executable, you should expect the following input parameters:
 
 # BASE_DIR – The main working directory containing all sources.
 

@@ -11,15 +11,15 @@ Prerequisites (Before Running the Script)
 
 - Ensure the scripts are executable, you should expect the following input parameters:
 
-# BASE_DIR – The main working directory containing all sources.
+* BASE_DIR – The main working directory containing all sources.
 
-# ORACLE_HOME – Path to the Oracle Home directory.
+* ORACLE_HOME – Path to the Oracle Home directory.
 
-# GRID_HOME – Path to the Grid Infrastructure Home.
+* GRID_HOME – Path to the Grid Infrastructure Home.
 
-# ORACLE_INV – Path to the Oracle Inventory.
+* ORACLE_INV – Path to the Oracle Inventory.
 
-# Zip file names – List of patch zip files to be used.
+* Zip file names – List of patch zip files to be used.
 
 What the Script Does
 ====================

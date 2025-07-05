@@ -1,6 +1,10 @@
 Prerequisites (Before Running the Script)
 ==========================================
 
+- Download 2 files (InitializePatch.sh & Run.sh).
+
+- Create directory OraAuto and put the 2 files inside this directory.
+
 - Create a base directory — this will be referred to as BASE_DIR.
 
 - Move all required source files (patches, scripts, etc.) into the BASE_DIR.

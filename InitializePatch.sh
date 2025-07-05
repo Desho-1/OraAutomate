@@ -74,14 +74,14 @@ fi
 fi
 
 if [ "$check" = "T" ]; then
-cd /root/Mine
+cd /root/OraAuto
 ./Run.sh
 
 elif [ "$check" = "G" ]; then
 
 if [ $free -gt $rec ]; then
 
-cd /root/Mine
+cd /root/OraAuto
 ./Run.sh
 
 else

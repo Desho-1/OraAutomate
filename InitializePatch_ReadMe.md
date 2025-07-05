@@ -3,7 +3,7 @@ Prerequisites (Before Running the Script)
 
 1- Download 2 files (InitializePatch.sh & Run.sh).
 
-2- Create directory OraAuto and put the 2 files inside this directory.
+2- Create directory OraAuto inside root directory and put the 2 files inside OraAuto directory.
 
 3- Create a base directory — this will be referred to as BASE_DIR.
 
@@ -39,3 +39,10 @@ This script prepares the environment and necessary components for Oracle patchin
 * Ensuring required permissions and prerequisites are in place before the actual patching steps begin.
 
 * upgrading opatch utility if necessary.(you have to place the zip file in BASE_DIR)
+
+  
+
+How to Run ?
+============
+
+- As Root type: ./InitializePatch.sh

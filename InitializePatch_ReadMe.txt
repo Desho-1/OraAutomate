@@ -30,6 +30,8 @@ This script prepares the environment and necessary components for Oracle patchin
 
 * Organizing and extracting patch files.
 
+* Backup Oracle Inventory, Oracle and grid homes.
+
 * Setting up the directory structure required for the patch process.
 
 * Preparing logs and backup directories if necessary.

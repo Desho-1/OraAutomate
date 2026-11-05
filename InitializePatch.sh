@@ -52,7 +52,7 @@ cat /home/grid/.bash_profile >>$BACKUP_DIR/grid_bash_profile
 cat /home/oracle/.profile >>$BACKUP_DIR/oracle_profile
 cat /home/oracle/.bash_profile >>$BACKUP_DIR/oracle_bash_profile
 
-
+echo "[INFO] Checking size.."
 free=`df -h $BASE_DIR |awk '{ print $4 }' | grep G | cut -d"G" -f1 | cut -d"." -f1`
 oh=`du -sh $ORACLE_DIR | cut -d"G" -f1 | cut -d"." -f1`
 gh=`du -sh $GRID_DIR | cut -d"G" -f1 | cut -d"." -f1`
@@ -85,8 +85,15 @@ cd /root/OraAuto
 ./Run.sh
 
 else
-echo "[ERROR] backup directory size is less than the recommended value"
-exit 1
+
+read -p "[WARNING] backup directory size is less than the recommended value do you wish to continue? (yes/no) :" answer
+if [ "$answer" = "yes" ]; then
+cd /root/OraAuto
+./Run.sh
+else
+echo "[INFO] Script Terminated! "
+fi
+
 fi
 
 else
